@@ -17,7 +17,7 @@ spec:
         harness.io/serviceRef: '{{harness_service}}'
         harness.io/buildRef: '{{image_tag}}'
     spec:
-      project: default
+      project: ee978c99
       source:
         repoURL: https://github.com/danf425/appsets-argocd-rollouts
         targetRevision: HEAD
