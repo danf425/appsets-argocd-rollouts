@@ -5,7 +5,7 @@ metadata:
 spec:
   generators:
   - git:
-      repoURL: https://github.com/mansong1/deploy-rollouts.git
+      repoURL: https://github.com/danf425/appsets-argocd-rollouts
       revision: HEAD
       files:
       - path: "cluster-config/**/config.json"
@@ -19,7 +19,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/mansong1/deploy-rollouts.git
+        repoURL: https://github.com/danf425/appsets-argocd-rollouts
         targetRevision: HEAD
         path: "base"
         kustomize:
