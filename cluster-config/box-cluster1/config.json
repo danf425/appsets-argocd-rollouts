@@ -1,7 +1,7 @@
 {
   "cluster_name" : "dev",
   "harness_service" : "canary",
-  "environment" : "dev",
-  "image_tag" : "bad-purple",
+  "environment" : "qa",
+  "image_tag" : "bad-green",
   "server_address" : "https://kubernetes.default.svc"
 }
