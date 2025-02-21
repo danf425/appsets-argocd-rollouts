@@ -2,6 +2,6 @@
   "cluster_name" : "qa",
   "harness_service" : "canary",
   "environment" : "qa",
-  "image_tag" : "slow-blue",
+  "image_tag" : "v1-yellow",
   "server_address" : "https://34.57.70.10"
 }
